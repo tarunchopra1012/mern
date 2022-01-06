@@ -10,10 +10,6 @@ import useStyles from './styles';
 
 const Post = ({ post }) => {
     const classes = useStyles();
-
-    console.log(post);
-
-    console.log('Hi');
     
     return (
         <Card className={classes.card}>
