@@ -45,7 +45,7 @@ const Post = ({ post, setCurrentId }) => {
                 <Button size="small" color="primary" onClick={() => dispatch(likePost(post._id))}>
 
                 <ThumbUpAltIcon fontSize='small' />
-                     LIKE
+                    &nbsp; LIKE &nbsp;
                     {post.likeCount}
                 </Button>
 
